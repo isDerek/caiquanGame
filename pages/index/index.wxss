@@ -1,0 +1,88 @@
+/**index.wxss**/
+
+.downView {
+  width: 100%;
+  min-height: 1250rpx;
+  background: #b3d4db;
+  margin: 0;
+}
+
+/*获胜次数*/
+
+.winNum {
+  padding-top: 40rpx;
+  display: block;
+  text-align: center;
+}
+
+/*展示出拳效果*/
+
+.showView {
+  display: flex;
+  width: 100%;
+  margin-top: 30rpx;
+  height: 200rpx;
+}
+
+/*图片*/
+
+.gesturesImgL, .gesturesImgR {
+  height: 180rpx;
+  width: 180rpx;
+  margin: 0 80rpx;
+  border-radius: 50%;
+  border: 5rpx solid #888;
+}
+
+.winOrLost {
+  color: orangered;
+  flex: 1;
+  font-size: 40rpx;
+  margin: 50rpx 0 0 20rpx;
+}
+
+/*用户出拳*/
+.choose-V {
+  display: flex;
+  margin-top: 10rpx;
+  margin: 40rpx;
+  text-align: center;
+}
+
+.choose-view {
+  flex: 1;
+  content: none !important;
+  height: 140rpx;
+  width: 140rpx;
+  border: none;
+}
+
+.judgeText{
+  display: block;
+  text-align: center;
+}
+
+.choose-image {
+  height: 160rpx;
+  width: 160rpx;
+  border-radius: 80rpx;
+  border: 5rpx solid #888;
+}
+.btn-container{
+  width: 100%;
+  position: absolute;
+}
+.startBtn {
+  margin-top: 200rpx;
+  width: 50%;
+  border-radius: 150rpx;
+  border: 5rpx solid #888;
+}
+
+.button-hover {
+  position: relative;
+  top:5px;
+  left: 5px;
+  box-shadow: -10px -10px 15px #888;
+  border-radius: 150rpx;
+}

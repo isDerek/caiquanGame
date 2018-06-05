@@ -1,0 +1,9 @@
+<view class='container'>
+  <text class='game-title'>剪刀石头布</text>
+  <image class="user-avatar" src='../image/pig.png'></image>
+  <text class='user-name'>指导老师：Alfred</text>
+  <text class='user-name'>制作人：Derek</text>
+  <view class='moto-container' bindtap='onTap'>
+    <button class='moto'>开启游戏</button>
+  </view>
+</view>

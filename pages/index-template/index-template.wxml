@@ -1,0 +1,5 @@
+<template name="indexTemplate">
+  <view class="choose-view" bindtap="userSelectBtnHandle" data-userid="{{id}}" data-aiid='{{imageAiSrcId}}'>
+    <image class="choose-image" src="{{src}}"></image>
+  </view>
+</template>

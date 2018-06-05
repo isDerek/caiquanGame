@@ -1,0 +1,20 @@
+<import src="../index-template/index-template.wxml" />
+<view>
+  <view class="downView">
+    <text class="winNum">你已经获胜了<text style="color:red">{{winNum}}</text>次</text>
+    <view class="showView">
+      <image src="{{imageAiSrc}}" class="gesturesImgL"></image>
+      <text class="winOrLost">{{gameOfPlay}}</text>
+      <image src="{{imageUserSelectSrc}}" class="gesturesImgR"></image>
+    </view>
+    <text class="judgeText">{{judgeText}}</text>
+    <view class='choose-V'>
+      <block wx:for="{{imageUserSelectSrcs}}" wx:for-item="item" wx:key="id">
+        <template is="indexTemplate" data="{{...item, imageAiSrcId:imageAiSrcId}}"></template>
+      </block>
+    </view>
+    <view class='btn-container'>
+    <button class="startBtn" bindtap="startButtonHandle">开始</button>
+    </view>  
+  </view>
+</view>
